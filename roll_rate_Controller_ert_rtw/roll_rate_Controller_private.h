@@ -3,13 +3,13 @@
  * course requirements at degree granting institutions only.  Not for
  * government, commercial, or other organizational use.
  *
- * File: pitch_rate_Controller_types.h
+ * File: roll_rate_Controller_private.h
  *
- * Code generated for Simulink model 'pitch_rate_Controller'.
+ * Code generated for Simulink model 'roll_rate_Controller'.
  *
  * Model version                  : 1.44
  * Simulink Coder version         : 9.8 (R2022b) 13-May-2022
- * C/C++ source code generated on : Mon Apr 15 11:52:37 2024
+ * C/C++ source code generated on : Mon Apr 15 11:51:58 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -17,13 +17,11 @@
  * Validation result: Not run
  */
 
-#ifndef RTW_HEADER_pitch_rate_Controller_types_h_
-#define RTW_HEADER_pitch_rate_Controller_types_h_
-
-/* Forward declaration for rtModel */
-typedef struct tag_RTM_pitch_rate_Controller_T RT_MODEL_pitch_rate_Controlle_T;
-
-#endif                           /* RTW_HEADER_pitch_rate_Controller_types_h_ */
+#ifndef RTW_HEADER_roll_rate_Controller_private_h_
+#define RTW_HEADER_roll_rate_Controller_private_h_
+#include "rtwtypes.h"
+#include "roll_rate_Controller_types.h"
+#endif                          /* RTW_HEADER_roll_rate_Controller_private_h_ */
 
 /*
  * File trailer for generated code.
