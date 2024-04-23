@@ -10,7 +10,7 @@ thrust_test = thrust_test * 9.81;
 
 %pwm = ((pwm - 1000) / 1000); % normalizing the data
 
-[thrust2, gof] = fit(pwm, thrust, 'poly2')
+[thrust2, gof] = fit(thrust, pwm, 'poly5')
 
-%plot(thrust2, pwm, thrust_filtered);
-plot(thrust2, pwm_test, thrust_test);
+plot(thrust2, thrust, pwm);
+%plot(thrust2, thrust_test, pwm_test);
